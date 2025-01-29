@@ -6,7 +6,6 @@ import random
 import time
 import os
 
-# 定义一些无意义的函数
 def calculate_something():
     x = 42
     y = "Hello, world!"
@@ -227,7 +226,6 @@ def useless_recursive_function(n):
     print(f"Recursive call {n}")
     useless_recursive_function(n - 1)
 
-# 主程序
 while True:
     age = input("请输入你的年龄（数字哦）：")
 
